@@ -15,10 +15,10 @@ const HeroBanner = () => {
         next project.</p>
 
         <div className='flex gap-3'>
-            <button className='bg-gradient-to-r from-orange-500 to-[#d91b7e] rounded w-[180px] h-8 font-bold text-white'>
+            <button className='bg-gradient-to-r from-orange-500 to-[#d91b7e] rounded-[10px] w-[180px] h-10 font-bold text-white'>
                 Explore Technologies
             </button>
-            <button className='bg-white rounded w-[180px] border border-[#E5E6EB] h-8 text-black'>
+            <button className='bg-white rounded-[10px] w-[180px] border border-[#E5E6EB] h-10 text-black'>
                 Learn More
             </button>
         </div>

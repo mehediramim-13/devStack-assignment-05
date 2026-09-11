@@ -12,10 +12,10 @@ const Nav = () => {
                 <div>
                     <ul className='flex justify-between gap-6 '>
                         <li className='text-[#db2777FF]'><a href="">Home</a></li>
-                        <li><a href="">Technologies</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="#">Technologies</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
 
