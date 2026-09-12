@@ -75,7 +75,7 @@ const TechCard = ({ promise }: TechCardProps) => {
                         : 'bg-[#0f172a] text-white hover:bg-[#0f172a]/90'
                       }`}
                   >
-                    {isAdded ? 'Added to Stack' : 'Add to Stack'}
+                    {isAdded ? '✓ Added to Stack' : 'Add to Stack'}
                   </button>
                 </div>
               );

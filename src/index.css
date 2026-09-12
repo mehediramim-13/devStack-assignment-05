@@ -13,6 +13,17 @@
 @theme {
   --font-sans: 'Inter', sans-serif;
   --font-jakarta: 'Plus Jakarta Sans', sans-serif;
+  --gradient-brand: linear-gradient(to right, rgba(255, 87, 34, 1) 0%, rgba(216, 27, 126, 1) 50%, rgba(124, 58, 237, 1) 100%);
+}
+
+@utility text-gradient-brand {
+  background-image: var(--gradient-brand);
+  background-clip: text;
+  color: transparent;
+}
+
+@utility bg-gradient-brand {
+  background-image: var(--gradient-brand);
 }
 
 body {
