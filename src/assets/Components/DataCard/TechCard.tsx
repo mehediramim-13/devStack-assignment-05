@@ -25,11 +25,15 @@ const TechCard = ({ promise }: TechCardProps) => {
     if (removed) toast.info(`${removed.name} removed from your stack.`);
   };
 
-  return (
-    <div className='container mx-auto px-4 mt-20'>
-      <div className='ml-20'>
+  const removeAll = () => {
+  setStack([]);
+  toast.info('Your stack has been cleared.');
+};
 
-        <h2 className="text-[32px] font-bold ">Explore the <span className="text-[#E44AA1]">Technologies</span></h2>
+  return (
+    <div className='max-w-6xl mx-auto px-4 mt-12 lg:mt-20'>
+  <div>
+    <h2 className="text-[24px] sm:text-[28px] lg:text-[32px] font-bold ">Explore the <span className="text-[#E44AA1]">Technologies</span></h2>
         <p className="text-4 text-[#64748bFF]">Pick one technology per catagory to build your ideal stack</p>
 
         <div className='grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6 my-15'>
@@ -75,7 +79,7 @@ const TechCard = ({ promise }: TechCardProps) => {
           </div>
 
           <div className='sticky top-24 h-fit'>
-            <YourStack />
+            <YourStack stack={stack} removeFromStack={removeFromStack} removeAll={removeAll} />
           </div>
 
         </div>

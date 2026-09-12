@@ -14,3 +14,7 @@
   --font-sans: 'Inter', sans-serif;
   --font-jakarta: 'Plus Jakarta Sans', sans-serif;
 }
+
+body {
+  overflow-x: hidden;
+}
