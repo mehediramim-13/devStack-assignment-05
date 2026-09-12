@@ -12,16 +12,20 @@ const Nav = () => {
                 <div>
                     <ul className='flex justify-between gap-6 '>
                         <li className='text-[#db2777FF]'><a href="">Home</a></li>
-                        <li><a href="#">Technologies</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#" className='hover:text-[#d91b7e] transition-colors'>Technologies</a></li>
+                        <li><a href="#" className='hover:text-[#d91b7e] transition-colors'>Projects</a></li>
+                        <li><a href="#" className='hover:text-[#d91b7e] transition-colors'>About</a></li>
+                        <li><a href="#" className='hover:text-[#d91b7e] transition-colors'>Contact</a></li>
                     </ul>
                 </div>
 
                 <div className='flex items-center gap-3 mr-20'>
-                    <button className='bg-white text-black w-[92px] h-[39px] rounded-full'>Sign in</button>
-                    <button className='bg-[#d91b7e] text-white w-[92px] h-[39px] rounded-full'>Sign up</button>
+                    <button className='bg-white text-black w-[92px] h-[39px] rounded-full hover:bg-gray-100 transition-colors'> Sign in  </button>
+                    
+                   
+                <button className='bg-[#d91b7e] text-white w-[92px] h-[39px] rounded-full hover:bg-[#c01870] transition-colors'>
+                Sign up </button>
+
                 </div>
 
             </div>

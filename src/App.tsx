@@ -6,6 +6,8 @@ import TechCard from './assets/Components/DataCard/TechCard'
 import type { CardTypeProps } from './assets/Components/Type/CardType'
 import { useState } from 'react'
 import { Suspense } from 'react'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const cardFetch = async (): Promise<CardTypeProps[]> => {
@@ -27,7 +29,7 @@ function App() {
     <Suspense fallback={ <h2>Loading....</h2> }>
       <TechCard promise = {cardPromise}></TechCard>
     </Suspense>
-    
+    <ToastContainer position="bottom-right" autoClose={2000} />
 
       <Footer></Footer>
     </>
