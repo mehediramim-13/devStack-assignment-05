@@ -2,7 +2,7 @@ import HeroImg from '../images/banner-stack.png'
 
 const HeroBanner = () => {
     return (
-        <div className='max-w-6xl mx-auto px-4 flex flex-col lg:flex-row justify-between items-center text-center lg:text-left min-w-0'>
+        <div className='max-w-6xl mx-auto px-4 mt-8 lg:mt-0 flex flex-col lg:flex-row justify-between items-center text-center lg:text-left min-w-0'>
             <div className='flex flex-col justify-center items-center lg:items-start w-full lg:w-auto min-w-0'>
                 <h2 className='font-bold text-[32px] sm:text-[42px] lg:text-[60px] leading-tight lg:leading-none text-[#0f172aFF] w-full'>
                     Build Your Ideal <br className='hidden lg:block' />
