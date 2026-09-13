@@ -5,7 +5,7 @@ const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className='w-full bg-[#FFFEFE] sticky top-0 z-50'>
+        <nav className='w-full bg-[#FFFEFE] sticky top-0 z-50 border-b border-gray-100'>
             <div className='max-w-6xl mx-auto flex items-center justify-between h-[70px] px-4 font-jakarta'>
 
                 <div className='flex items-center gap-3 lg:hidden'>
